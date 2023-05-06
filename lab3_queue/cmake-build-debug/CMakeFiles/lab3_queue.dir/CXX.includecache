@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/xiapi/CLionProjects/lab3_queue/ABQ.h
+exception
+-
+iostream
+-
+
+C:/Users/xiapi/CLionProjects/lab3_queue/main.cpp
+iostream
+-
+ABQ.h
+C:/Users/xiapi/CLionProjects/lab3_queue/ABQ.h
+
